@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Convertisseur de devises</title>
+</head>
+<body>
+
+  <h1>Convertisseur de devises</h1>
+
+  <input type="number" id="amount" placeholder="Montant">
+
+  <select id="from">
+    <option value="USD">USD</option>
+    <option value="EUR">EUR</option>
+    <option value="XOF">XOF</option>
+  </select>
+
+  <select id="to">
+    <option value="USD">USD</option>
+    <option value="EUR">EUR</option>
+    <option value="XOF">XOF</option>
+  </select>
+
+  <button onclick="convert()">Convertir</button>
+
+  <p>Résultat : <span id="result">0</span></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
